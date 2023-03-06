@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("/home/jmh/3.jpg")
+img = cv2.imread("/home/jmh/3.jpg") #img path
 
 faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
