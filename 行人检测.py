@@ -10,6 +10,6 @@ bodys = bodyCascade.detectMultiScale(img,1.15)
 
 for (x,y,w,h) in bodys:
     cv2.rectangle(img,(x,y),(x + w,y + h),(0,0,255),5)
-
-    cv2.imshow("img",img)
-    cv2.waitKey()
+    
+cv2.imshow("img",img)
+cv2.waitKey()
