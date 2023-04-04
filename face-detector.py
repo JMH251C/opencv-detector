@@ -3,7 +3,7 @@ import cv2
 import face_recognition as fr
 import numpy as np
 
-path,path2,path3,path4 = "/home/jmh/桌面/RecognizeFace/成龙/222.jpg","/home/jmh/桌面/RecognizeFace/林俊杰/222.jpg","/home/jmh/桌面/RecognizeFace/周杰伦/222.jpg","/home/jmh/桌面/RecognizeFace/成龙/222.jpg"
+path,path2,path3,path4 = "ex1","ex2","ex3","ex4"
 
 img = fr.load_image_file(path)  #import images
 
